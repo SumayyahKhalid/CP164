@@ -1,0 +1,57 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sumayyah Khalid
+ID:      169022335
+Email:   khal2335@mylaurier.ca
+Version: 2024-01-21
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       grape
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   67
+Name:       sushi
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   67
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+5.0
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+5.666666666666667
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+from Food_utilities import food_table
+from Food import Food
+def main():
+    food = Food("BBQ Pork",1,False,920)
+    food1 = Food("Beef with Green Pepper",1,False,251)
+    foods = [food1,food]
+    food_table(foods)
+    #print(food1.name)
+main()
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Name:       grape
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   5
+Name:       sushi
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   10
+Name:       water
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   0
+-------------------------------------------------------
